@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,300;1,300&family=Sigmar+One&display=swap');
+
+/* PALETA DE COLORES 
+Azul Oscuro #006bbb
+Azul Claro #30a0e0
+Amarillo Oscuro #ffc872
+Amarillo Claro (Piel) #ffe3b3 */
+
+/* TIPOGRAFIAS
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sigmar One', cursive; */
+
+body {
+    background-image: url(../img/fondo.jpg);
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: expansion 5s ;
+    margin-top: 0px;
+    margin-left: 33px;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+section#inicio h1{
+    font-family: 'Sigmar One';
+    color: #006bbb;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+}
+
+section#punto-1 h2 {
+    font-family: 'Alfa Slab One';
+    color: #ffc872;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+}
+
+section#punto-2 h2 {
+    font-family: 'Alfa Slab One';
+    color: #30a0e0;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+}
+
+section#punto-3 h2 {
+    font-family: 'Alfa Slab One';
+    color: #ffe3b3;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+}
+
+
